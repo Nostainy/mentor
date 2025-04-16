@@ -1,0 +1,165 @@
+.about-sec {
+  width: 100%;
+  padding-top: 12rem;
+  background-color: #5fcf80;
+  cursor: pointer;
+}
+
+.about-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.about {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-weight: 900;
+}
+
+.about-note {
+  font-size: 1.8rem;
+  margin-bottom: 7rem;
+  color: white;
+}
+
+.about-bottom {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 3px;
+  font-size: 1.8rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #5bc57a;
+}
+
+.home-link {
+  text-decoration: none;
+  color: white;
+}
+
+.flex {
+  color: #7ae199;
+}
+
+.aboutus {
+  color: white;
+}
+
+/* course section // */
+
+.course-home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding-left: 7rem;
+  padding-top: 7rem;
+  padding-right: 7rem;
+}
+
+.course-img-box {
+  width: 100%;
+}
+
+.course-img {
+  width: 100%;
+}
+
+.lower-course-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid rgb(192, 191, 191);
+}
+
+.devep-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.web-development {
+  font-size: 1.5rem;
+  background-color: rgb(93, 133, 93);
+  padding: 2px 2rem;
+  color: white;
+}
+
+.dollar {
+  font-size: 1.5rem;
+  color: rgb(85, 82, 82);
+  font-weight: 900;
+}
+
+.web {
+  font-size: 2rem;
+  color: rgb(33, 25, 25);
+  font-weight: 900;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.web:hover {
+  color: rgb(38, 169, 38);
+  transition: 0.3s ease-in-out;
+}
+
+.course-note {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: grey;
+}
+
+.course-profile {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(192, 191, 191);
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.first-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-img {
+  width: 5rem;
+  border-radius: 50rem;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: gray;
+}
+
+.profile-name:hover {
+  color: rgb(38, 169, 38);
+  transition: 0.3s ease-in-out;
+}
+
+.second-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.course-ion {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  gap: 5px;
+  color: gray;
+}
+

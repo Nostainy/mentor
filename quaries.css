@@ -1,0 +1,138 @@
+@media (max-width: 1200px) {
+  .btn-box {
+    display: flex;
+  }
+  .close {
+    display: none;
+  }
+
+  .main-nav-list {
+    /* display: none; */
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    height: 100dvh;
+    top: 8rem;
+    right: -100%;
+    gap: 5rem;
+    transition: 1s ease-in-out;
+  }
+
+  .nav-box{
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    height: 100vh;
+    top: 1rem;
+    left: 0;
+    gap: 2rem;
+  }
+
+  .switch .main-nav-list {
+    /* display: flex; */
+    position: absolute;
+    right: 0;
+  }
+
+  .switch .close {
+    display: block;
+  }
+
+  .switch .open {
+    display: none;
+  }
+}
+
+@media (max-width: 1140px) {
+  .voluptatem-sec {
+    flex-direction: column;
+  }
+  .product-sec {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .icons {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .course-home {
+    grid-template-columns: 1fr;
+  }
+  .walter-home {
+    grid-template-columns: 1fr;
+  }
+  .counter {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .product-sec {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+  }
+  .icons {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+  .course-home {
+    gap: 4rem;
+  }
+  .walter-home {
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .product-sec {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid-box {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .icons {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid-box {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .hero-tittle {
+    font-size: 3rem;
+  }
+  .hero-note {
+    font-size: 1.5rem;
+  }
+  .volup-tittle {
+    font-size: 2rem;
+  }
+  .volup-note {
+    font-size: 1.3rem;
+  }
+  .volup-list {
+    font-size: 1.2rem;
+  }
+  .number {
+    font-size: 3rem;
+  }
+  .pro-tittle {
+    font-size: 2.5rem;
+  }
+  .pro-note {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  .pro-bttn {
+    font-size: 1.2rem;
+  }
+  .main-nav-list {
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,194 @@
+.about-sec {
+  width: 100%;
+  padding-top: 12rem;
+  background-color: #5fcf80;
+  cursor: pointer;
+}
+
+.about-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.about {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-weight: 900;
+}
+
+.about-note {
+  font-size: 1.8rem;
+  margin-bottom: 7rem;
+  color: white;
+}
+
+.about-bottom {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 3px;
+  font-size: 1.8rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #5bc57a;
+}
+
+.home-link {
+  text-decoration: none;
+  color: white;
+}
+
+.flex {
+  color: #7ae199;
+}
+
+.aboutus {
+  color: white;
+}
+
+/* pricing section  */
+
+.pricing-sec {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+  padding: 6rem;
+  scroll-behavior: smooth;
+}
+
+.pricing-grid {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+.free {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  justify-content: center;
+  font-size: 1.5rem;
+  background-color: whitesmoke;
+  color: rgb(81, 79, 79);
+}
+
+.back {
+  background-color: #5fcf80;
+  color: white;
+  font-weight: 600;
+}
+
+.month {
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.span {
+  font-size: 3rem;
+  color: black;
+}
+
+.free-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+  margin-bottom: 2rem;
+  color: gray;
+}
+
+.list {
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.decoration {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.pricing-btn-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  padding: 3rem;
+}
+
+.btn-pricing {
+  border: none;
+  background: none;
+}
+
+.bttn-link {
+  padding: 1rem 3rem;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  background-color: #5bc57a;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.bttn-link:hover {
+  background-color: #7dd797;
+}
+
+.last{
+    position: relative;
+    overflow: hidden;
+}
+
+.last::before{
+    position: absolute;
+    content: 'Advanced';
+    transform: rotate(49deg);
+    left: 18.1rem;
+    width: 10rem;
+    top: 2rem;
+    background-color: #5FCF80;
+    padding: 5px;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+/* quaries section  */
+
+@media(max-width: 1000px){
+  .pricing-sec{
+    grid-template-columns: 1fr 1fr;
+  }
+  .last::before{
+    left: 34rem;
+    top: 2rem;
+    transform: rotate(47deg);
+  }
+}
+@media(max-width: 600px){
+  .pricing-sec{
+    grid-template-columns: 1fr;
+  }
+  .last::before{
+    left: 40rem;
+    top: 2rem;
+    transform: rotate(47deg);
+  }
+  
+}
+

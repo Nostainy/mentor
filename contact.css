@@ -1,0 +1,160 @@
+.about-sec {
+  width: 100%;
+  padding-top: 12rem;
+  background-color: #5fcf80;
+  cursor: pointer;
+}
+
+.about-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.about {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-weight: 900;
+}
+
+.about-note {
+  font-size: 1.8rem;
+  margin-bottom: 7rem;
+  color: white;
+}
+
+.about-bottom {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 3px;
+  font-size: 1.8rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #5bc57a;
+}
+
+.home-link {
+  text-decoration: none;
+  color: white;
+}
+
+.flex {
+  color: #7ae199;
+}
+
+.aboutus {
+  color: white;
+}
+
+/* MAP SECTIONS */
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.mapBox{
+    width: 100%;
+    height: 40dvh;
+}
+
+/* CONTACT SECTION  */
+
+.contact-sec{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 5rem;
+    gap: 3rem;
+}
+
+.contact-icon-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-icon{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.address-box{
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.icon{
+    font-size: 2rem;
+    padding: 1.5rem;
+    background-color: #5bc57a;
+    color: white;
+    border-radius: 3rem;
+}
+
+.address{
+    margin-bottom: 1rem;
+}
+
+.contact-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.name-email{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+.name{
+    width: 100%;
+    padding: 1rem;
+}
+
+.email{
+    width: 100%;
+    padding: 1rem;
+}
+
+.subject{
+    width: 100%;
+    padding: 1rem;
+}
+
+.message{
+    width: 100%;
+    height: 20vh;
+}
+
+.contact-btn{
+    background: #5fcf80;
+    color: white;
+    border: none;
+    padding: 1.5rem 3rem;
+    width: 15rem;
+    margin: 0 auto;
+    border-radius: 3rem;
+}
+
+
+/* quaries section  */
+
+@media(max-width: 1000px){
+  .contact-sec{
+    grid-template-columns: 1fr;
+  }
+}
