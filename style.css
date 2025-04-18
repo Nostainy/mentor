@@ -327,6 +327,7 @@
 
 .product-sec {
   width: 100%;
+  justify-content: center;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   padding: 7rem;
@@ -522,6 +523,8 @@
 }
 
 .course-home {
+  width: 100%;
+  justify-content: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;

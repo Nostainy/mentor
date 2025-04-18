@@ -172,13 +172,22 @@
   }
 
   .hero-note{
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
   }
 
   .hero-btn{
     padding: 1rem 2rem;
     margin-top: 1rem;
+  }
+
+  .hero-below{
+    bottom: -1rem;
+    padding: 3rem;
+  }
+
+  .popular{
+    font-size: 3rem;
   }
 
 }
