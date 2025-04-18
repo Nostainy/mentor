@@ -181,6 +181,9 @@
   }
 }
 @media(max-width: 600px){
+  .about-box{
+    padding: 1rem;
+  }
   .pricing-sec{
     grid-template-columns: 1fr;
   }

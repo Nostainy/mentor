@@ -53,20 +53,20 @@
   color: black;
 }
 
-.nav-link::before{
-    content: "";
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 2px;
-    background-color: #5FCF80;
-    transition: width 0.3s ease;
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #5fcf80;
+  transition: width 0.3s ease;
 }
 
-.nav-link:hover::before{
-    width: 100%;
+.nav-link:hover::before {
+  width: 100%;
 }
 
 .home {
@@ -216,7 +216,7 @@
 }
 
 .hero-btn:hover {
-  background-color: #7FD999;
+  background-color: #7fd999;
   color: white;
   transition: all 0.3s;
 }
@@ -271,13 +271,13 @@
 .read-btn {
   padding: 1rem 3rem;
   font-size: 1.2rem;
-  background-color: #7FD999;
+  background-color: #7fd999;
   color: white;
   border: none;
   border-radius: 2rem;
 }
 
-.read-btn:hover{
+.read-btn:hover {
   background-color: #86e6a3;
   color: white;
 }
@@ -337,7 +337,7 @@
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  background-color: #5FCF80;
+  background-color: #5fcf80;
 }
 
 .pro-tittle {
@@ -373,7 +373,7 @@
 }
 
 .product-b {
-  width: 20rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -402,7 +402,7 @@
 }
 
 .product-b:hover .pro-icon {
-  background-color: #5FCF80;
+  background-color: #5fcf80;
   color: white;
 }
 
@@ -418,7 +418,7 @@
 
 .small-icon {
   display: flex;
-  width: 22rem;
+  width: 100%;
   align-items: center;
   padding: 2rem 2rem;
   gap: 1rem;
@@ -769,7 +769,6 @@
 }
 
 .footer-btn-box:hover {
-  color: ;
   border: 1px solid rgb(38, 169, 38);
 }
 
@@ -802,7 +801,7 @@
   color: rgb(84, 81, 81);
 }
 
-.nostainy{
+.nostainy {
   text-decoration: none;
   font-size: 1.5rem;
   color: rgb(224, 27, 66);

@@ -307,7 +307,6 @@
   }
   .intro-box {
     padding-bottom: 0rem;
-    background-color: green;
     margin-bottom: 0;
     height: 30rem;
     bottom: -20%;
@@ -323,7 +322,6 @@
   }
   .intro-box {
     padding-bottom: 0rem;
-    background-color: blue;
     margin-bottom: 0;
     height: 30rem;
     bottom: -30%;
@@ -339,7 +337,6 @@
   }
   .intro-box {
     padding-bottom: 0rem;
-    background-color: orange;
     margin-bottom: 0;
     height: 30rem;
     bottom: -10%;
@@ -349,16 +346,15 @@
 }
 
 @media (max-width: 660px) {
-  html {
+  /* html {
     font-size: 50%;
-  }
+  } */
   .scale-grid-box {
     grid-template-columns: 1fr;
     gap: 30rem;
   }
   .intro-box {
     padding-bottom: 3rem;
-    background-color: purple;
     margin-bottom: 0;
     height: fit-content;
     bottom: -50%;
@@ -374,9 +370,7 @@
   }
   .intro-box {
     padding-bottom: 0rem;
-    background-color: pink;
     margin-bottom: 0;
-    /* height: 30rem; */
     bottom: -30%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -391,7 +385,6 @@
   }
   .intro-box {
     padding-bottom: 0rem;
-    background-color: blue;
     margin-bottom: 0;
     bottom: -50%;
     left: 50%;

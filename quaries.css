@@ -1,6 +1,7 @@
 @media (max-width: 1200px) {
   .btn-box {
     display: flex;
+    color: #5FCF80;
   }
   .close {
     display: none;
@@ -70,6 +71,10 @@
 }
 
 @media (max-width: 1000px) {
+  .hero-img{
+   width: 100%;
+   height: 60vh;
+  }
   .product-sec {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
@@ -87,6 +92,10 @@
 }
 
 @media (max-width: 900px) {
+  .hero-img{
+   width: 100%;
+   height: 55vh;
+  }
   .product-sec {
     grid-template-columns: 1fr;
   }
@@ -97,6 +106,21 @@
 }
 
 @media (max-width: 600px) {
+  .hero-img{
+   width: 100%;
+   height: 45vh;
+  }
+  .about-box {
+    padding: 1rem;
+  }
+  .voluptatem-sec{
+    padding: 1rem;
+  }
+
+  .course-home{
+    padding: 2rem;
+  }
+
   .icons {
     grid-template-columns: 1fr;
   }
@@ -135,4 +159,26 @@
   .main-nav-list {
     gap: 1rem;
   }
+}
+
+@media(max-width: 500px){
+  .hero-img{
+   width: 100%;
+   height: 36vh;
+  }
+
+  .hero-tittle{
+    font-size: 2rem;
+  }
+
+  .hero-note{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-btn{
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+  }
+
 }
