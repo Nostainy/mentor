@@ -259,6 +259,9 @@ swiper-slide {
   .testimonial-sec, .about-box {
     padding: 1rem;
   }
+  .testimonial-sec{
+    margin-top: 2rem;
+  }
 
   .about-voluptatem-sec{
     padding: 2rem;
